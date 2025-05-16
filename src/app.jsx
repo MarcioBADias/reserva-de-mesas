@@ -1,8 +1,11 @@
+import React from 'react'
+import { AppProvider } from './context/AppContext'
+import { AppRoutes } from './routes'
 const App = () => {
   return (
-    <>
-      <h1>Boilerplace + React</h1>
-    </>
+    <AppProvider>
+      <AppRoutes />
+    </AppProvider>
   )
 }
 

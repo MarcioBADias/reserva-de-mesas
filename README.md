@@ -1,8 +1,20 @@
-# React + Vite
+# 🍽️ Reserva Fácil
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicativo web para facilitar a reserva de mesas em restaurantes cadastrados. O cliente escolhe o restaurante, visualiza os horários disponíveis e realiza a reserva pagando uma taxa de R$ 6,00.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React JS
+- useReducer para gerenciamento de estado global
+- styled-components para estilização
+- React Router Dom para navegação entre páginas
+- Axios para chamadas HTTP
+- Context API
+
+## 📌 Funcionalidades
+
+- Cadastro de restaurantes e seus horários disponíveis
+- Navegação entre área do cliente e do restaurante
+- Reserva de mesas por R$ 6,00 com data e horário
+- Listagem de reservas do usuário
+- Componente global de estado para manter dados entre páginas
